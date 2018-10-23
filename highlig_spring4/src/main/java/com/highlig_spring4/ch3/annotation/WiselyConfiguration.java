@@ -14,10 +14,13 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
+//组合@Configuration元注解
 @Configuration
+//组合@ComponentScan元注解
 @ComponentScan
 public @interface WiselyConfiguration {
 
+    //自定义注解，覆盖Value参数
     String[] value() default {};
 
 }
