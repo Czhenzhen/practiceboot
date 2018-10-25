@@ -102,6 +102,18 @@
             <version>${logback.version}</version>
         </dependency>
 
+        <!--jackson及相关依赖，获得对象和json或xml之间的转换-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.5.3</version>
+        </dependency>
+        <!--上边的依赖包含此依赖，如果只用json可直接用此依赖-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.5.3</version>
+        </dependency>
 
     </dependencies>
 
