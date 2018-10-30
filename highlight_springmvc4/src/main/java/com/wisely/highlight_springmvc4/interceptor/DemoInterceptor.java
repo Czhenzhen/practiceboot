@@ -1,8 +1,6 @@
 package com.wisely.highlight_springmvc4.interceptor;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -36,6 +34,7 @@ public class DemoInterceptor extends HandlerInterceptorAdapter {
         System.out.println("本次请求处理的时间为："+(endTime-startTime)+"ms");
         request.setAttribute("handlingTime",endTime-startTime);
     }
+
 
 
 }
