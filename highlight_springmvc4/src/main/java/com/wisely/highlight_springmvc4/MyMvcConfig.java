@@ -41,9 +41,22 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
     }
 
+    /**
+     * 设置路径转向页面
+     * @param registry
+     */
     @Override
     public void addViewControllers(ViewControllerRegistry registry){
         registry.addViewController("/index").setViewName("/index");
+    }
+
+    /**
+     * 重写该方法可使url的"."后边的参数不被忽略
+     * @param configurer
+     */
+    @Override
+    public void configurePathMatch(PathMatchConfigurer configurer) {
+        configurer.setUseSuffixPatternMatch(false);
     }
 
     @Bean
