@@ -1,0 +1,16 @@
+WWWWWWWW                           WWWWWWWWIIIIIIIIII   SSSSSSSSSSSSSSS EEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLL         YYYYYYY       YYYYYYY
+W::::::W                           W::::::WI::::::::I SS:::::::::::::::SE::::::::::::::::::::EL:::::::::L         Y:::::Y       Y:::::Y
+W::::::W                           W::::::WI::::::::IS:::::SSSSSS::::::SE::::::::::::::::::::EL:::::::::L         Y:::::Y       Y:::::Y
+W::::::W                           W::::::WII::::::IIS:::::S     SSSSSSSEE::::::EEEEEEEEE::::ELL:::::::LL         Y::::::Y     Y::::::Y
+ W:::::W           WWWWW           W:::::W   I::::I  S:::::S              E:::::E       EEEEEE  L:::::L           YYY:::::Y   Y:::::YYY
+  W:::::W         W:::::W         W:::::W    I::::I  S:::::S              E:::::E               L:::::L              Y:::::Y Y:::::Y
+   W:::::W       W:::::::W       W:::::W     I::::I   S::::SSSS           E::::::EEEEEEEEEE     L:::::L               Y:::::Y:::::Y
+    W:::::W     W:::::::::W     W:::::W      I::::I    SS::::::SSSSS      E:::::::::::::::E     L:::::L                Y:::::::::Y
+     W:::::W   W:::::W:::::W   W:::::W       I::::I      SSS::::::::SS    E:::::::::::::::E     L:::::L                 Y:::::::Y
+      W:::::W W:::::W W:::::W W:::::W        I::::I         SSSSSS::::S   E::::::EEEEEEEEEE     L:::::L                  Y:::::Y
+       W:::::W:::::W   W:::::W:::::W         I::::I              S:::::S  E:::::E               L:::::L                  Y:::::Y
+        W:::::::::W     W:::::::::W          I::::I              S:::::S  E:::::E       EEEEEE  L:::::L         LLLLLL   Y:::::Y
+         W:::::::W       W:::::::W         II::::::IISSSSSSS     S:::::SEE::::::EEEEEEEE:::::ELL:::::::LLLLLLLLL:::::L   Y:::::Y
+          W:::::W         W:::::W          I::::::::IS::::::SSSSSS:::::SE::::::::::::::::::::EL::::::::::::::::::::::LYYYY:::::YYYY
+           W:::W           W:::W           I::::::::IS:::::::::::::::SS E::::::::::::::::::::EL::::::::::::::::::::::LY:::::::::::Y
+            WWW             WWW            IIIIIIIIII SSSSSSSSSSSSSSS   EEEEEEEEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLLLLLLLYYYYYYYYYYYYY
