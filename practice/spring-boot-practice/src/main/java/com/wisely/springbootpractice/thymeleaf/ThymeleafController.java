@@ -16,7 +16,7 @@ import java.util.List;
   * @date 2018-11-09
   */
 @Controller
-@RequestMapping("/thymelaef")
+@RequestMapping("/thymeleaf")
 public class ThymeleafController {
 
     @RequestMapping("/start")
