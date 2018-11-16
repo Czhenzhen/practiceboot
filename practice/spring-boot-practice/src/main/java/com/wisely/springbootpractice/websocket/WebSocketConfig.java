@@ -1,4 +1,4 @@
-package com.wisely.springbootpractice.websocket.broadcast;
+package com.wisely.springbootpractice.websocket;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -27,6 +27,8 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         //注册一个STOMP的endpoint，并指定使用SocketJS协议
         registry.addEndpoint("/endpointWisely").withSockJS();
+        //注册一个名为/endpointChat的endpoint
+        registry.addEndpoint("/endpointChat").withSockJS();
     }
 
     /**
@@ -37,6 +39,10 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         //广播式应配置一个/topic消息代理
         registry.enableSimpleBroker("/topic");
+        //点对点式增加一个/queue消息代理
+        registry.enableSimpleBroker("/queue","/topic");
     }
+
+
 
 }
