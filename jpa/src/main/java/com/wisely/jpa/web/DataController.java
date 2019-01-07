@@ -1,14 +1,12 @@
 package com.wisely.jpa.web;
 
-import com.wisely.jpa.dao.PersonRepository;
 import com.wisely.jpa.domain.Person;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.*;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import com.wisely.jpa.dao.PersonRepository;
 
-import java.util.List;
-import java.util.Optional;
 
 /**
   * 控制器
@@ -19,10 +17,8 @@ import java.util.Optional;
 @RestController
 public class DataController {
 
-    @Autowired
-    PersonRepository personRepository;
 
-    @RequestMapping("/save")
+   /* @RequestMapping("/save")
     public Person save(String name,Integer age,String address){
         Person p = personRepository.save(new Person(null,name,age,address));
         return p;
@@ -62,7 +58,12 @@ public class DataController {
     public Page<Person> page(){
         Page<Person> pagePeople = personRepository.findAll(new PageRequest(1,3));
         return pagePeople;
-    }
+    }*/
 
+    @GetMapping("/auto")
+    public Page<Person> auto(Person person){
+        Page<Person> pagePeople = PersonRepository.findByAuto(person,new PageRequest(0,5));
+        return pagePeople;
+    }
 
 }

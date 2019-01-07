@@ -1,6 +1,7 @@
 package com.wisely.jpa.dao;
 
 import com.wisely.jpa.domain.Person;
+import com.wisely.jpa.util.CustomRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -15,7 +16,7 @@ import java.util.List;
   * @date 2018-12-26
   */
 @Repository
-public interface PersonRepository extends JpaRepository<Person,Long> {
+public interface PersonRepository extends CustomRepository<Person,Long> {
 
     //使用方法名查询
     List<Person> findByAddress(String address);
